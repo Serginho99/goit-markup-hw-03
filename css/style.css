@@ -370,7 +370,7 @@ body {
 .picture {
   width: 380px;
   height: 294px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .examples-item {
