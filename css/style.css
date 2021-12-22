@@ -51,6 +51,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  height: 80px;
 }
 
 .header-logo {
