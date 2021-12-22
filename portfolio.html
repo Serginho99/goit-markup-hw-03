@@ -10,17 +10,21 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+    /> <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!--Шапка-->
+ <!--Шапка-->
     <header class="header">
-      <div class="container">
+      <div class="container main-nav">
+        <a class="header-logo link" href="/">Web<span class="header-logo-sudio">Studio</span> </a>
         <nav class="header-nav">
-          <a class="header-logo link" href="/"
-            >Web<span class="header-logo-sudio">Studio</span>
-          </a>
           <ul class="header-list list">
             <li class="header-item">
               <a class="header-link link" href="./index.html">Студия</a>
@@ -33,16 +37,12 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-list list">
+        <ul class="header-list-address list">
           <li class="header-item">
-            <a class="header-address link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <a class="header-address link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li class="header-item">
-            <a class="header-address link" href="tel:0961111111"
-              >096 111 11 11</a
-            >
+            <a class="header-address link" href="tel:0961111111">096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -50,74 +50,78 @@
     <!--Основная информация-->
     <main class="main">
       <div class="container">
-        <h1 class="main-title">Выбор услуг</h1>
-        <ul class="list main-list">
-          <li><button class="main-button" type="button">Все</button></li>
-          <li><button class="main-button" type="button">Веб-сайты</button></li>
-          <li><button class="main-button" type="button">Приложения</button></li>
-          <li><button class="main-button" type="button">Дизайн</button></li>
-          <li><button class="main-button" type="button">Маркетинг</button></li>
-        </ul>
-        <!--Примеры работ-->
-        <h2>Примеры работ</h2>
-        <ul class="list">
-          <li>
-            <img src="./img/img1.jpg" alt="Ноутбук-с-сайтом" width="370" />
-            <h3 class="about-title">Технокряк</h3>
-            <p class="about-text">Веб-сайт</p>
+        <div class="only-button">
+          <h1 class="main-title visually-hidden">Выбор услуг</h1>
+          <ul class="list main-list">
+            <li class="main-item"><button class="main-button" type="button">Все</button></li>
+            <li class="main-item"><button class="main-button" type="button">Веб-сайты</button></li>
+            <li class="main-item"><button class="main-button" type="button">Приложения</button></li>
+            <li class="main-item"><button class="main-button" type="button">Дизайн</button></li>
+            <li class="main-item"><button class="main-button" type="button">Маркетинг</button></li>
+          </ul>
+        </div>
+      </div>
+      <!--Примеры работ-->
+      <div class="container">
+        <div class="examples">
+          <h2 class="examples-title visually-hidden">Примеры работ</h2>
+        <ul class="list examples-list">
+          <li class="examples-item">
+            <img class="picture" src="./img/img1.jpg" alt="Ноутбук-с-сайтом" width="370" />
+            <h3 class="about-title-list">Технокряк</h3>
+            <p class="about-text-list">Веб-сайт</p>
           </li>
-          <li>
-            <img src="./img/img2.jpg" alt="Баскетболисты" width="370" />
-            <h3 class="about-title">Постер New Orlean vs Golden Star</h3>
+          <li class="examples-item">
+            <img class="picture" src="./img/img2.jpg" alt="Баскетболисты" width="370" />
+            <h3 class="about-title-list">Постер New Orlean vs Golden Star</h3>
             <p class="about-text">Дизайн</p>
           </li>
-          <li>
-            <img src="./img/img3.jpg" alt="Название-ресторана" width="370" />
-            <h3 class="about-title">Ресторан Seafood</h3>
-            <p class="about-text">Приложение</p>
+          <li class="examples-item">
+            <img class="picture" src="./img/img3.jpg" alt="Название-ресторана" width="370" />
+            <h3 class="about-title-list">Ресторан Seafood</h3>
+            <p class="about-text-list">Приложение</p>
           </li>
-          <li>
-            <img src="./img/img4.jpg" alt="Наушники" width="370" />
-            <h3 class="about-title">Проект Prime</h3>
-            <p class="about-text">Маркетинг</p>
+          <li class="examples-item">
+            <img class="picture" src="./img/img4.jpg" alt="Наушники" width="370" />
+            <h3 class="about-title-list">Проект Prime</h3>
+            <p class="about-text-list">Маркетинг</p>
           </li>
-          <li>
-            <img src="./img/img5.jpg" alt="Боксы" width="370" />
-            <h3 class="about-title">Проект Boxes</h3>
-            <p class="about-text">Приложение</p>
+          <li class="examples-item">
+            <img class="picture" src="./img/img5.jpg" alt="Боксы" width="370" />
+            <h3 class="about-title-list">Проект Boxes</h3>
+            <p class="about-text-list">Приложение</p>
           </li>
-          <li>
-            <img src="./img/img6.jpg" alt="Монитор-компьюетра" width="370" />
-            <h3 class="about-title">Inspiration has no Borders</h3>
-            <p class="about-text">Веб-сайт</p>
+          <li class="examples-item">
+            <img class="picture" src="./img/img6.jpg" alt="Монитор-компьюетра" width="370" />
+            <h3 class="about-title-list">Inspiration has no Borders</h3>
+            <p class="about-text-list">Веб-сайт</p>
           </li>
-          <li>
-            <img src="./img/img7.jpg" alt="Книга" width="370" />
-            <h3 class="about-title">Издание Limited Edition</h3>
-            <p class="about-text">Дизайн</p>
+          <li class="examples-item">
+            <img class="picture" src="./img/img7.jpg" alt="Книга" width="370" />
+            <h3 class="about-title-list">Издание Limited Edition</h3>
+            <p class="about-text-list">Дизайн</p>
           </li>
-          <li>
-            <img src="./img/img8.jpg" alt="Проект-Лаб" width="370" />
-            <h3 class="about-title">Проект LAB</h3>
-            <p class="about-text">Маркетинг</p>
+          <li class="examples-item">
+            <img class="picture" src="./img/img8.jpg" alt="Проект-Лаб" width="370" />
+            <h3 class="about-title-list">Проект LAB</h3>
+            <p class="about-text-list">Маркетинг</p>
           </li>
-          <li>
-            <img src="./img/img9.jpg" alt="Ноутбук" width="370" />
-            <h3 class="about-title">Growing Business</h3>
-            <p class="about-text">Приложение</p>
+          <li class="examples-item">
+            <img class="picture" src="./img/img9.jpg" alt="Ноутбук" width="370" />
+            <h3 class="about-title-list">Growing Business</h3>
+            <p class="about-text-list">Приложение</p>
           </li>
         </ul>
       </div>
-    </main>
+    </main></div>
+        
     <!--Футер-->
-    <footer class="footer">
+     <footer class="footer">
       <div class="container">
-        <a class="footer-logo link" href=""
-          >Web<span class="footer-logo-sudio">Studio</span></a
-        >
+        <a class="footer-logo link" href="">Web<span class="footer-logo-sudio">Studio</span></a>
         <address class="address">
-          <ul class="list">
-            <li>
+          <ul class="list addres-list">
+            <li class="address-item">
               <a
                 class="link address-footer"
                 href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383859?hl=ru"
@@ -125,15 +129,11 @@
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
-              <a class="link footer-address" href="mailto:info@example.com"
-                >info@example.com</a
-              >
+            <li class="address-item">
+              <a class="link footer-address" href="mailto:info@example.com">info@example.com</a>
             </li>
-            <li>
-              <a class="link footer-address" href="tel:+380991111111"
-                >+38 099 111 11 11</a
-              >
+            <li class="address-item">
+              <a class="link footer-address" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
           </ul>
         </address>
