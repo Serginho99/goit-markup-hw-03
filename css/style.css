@@ -216,7 +216,6 @@ body {
 .work-list {
   display: inline-block;
   display: flex;
-  margin-bottom: 50px;
 }
 
 .work-item:not(:last-child) {
