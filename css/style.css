@@ -273,6 +273,10 @@ body {
   font-style: normal;
 }
 
+.address-item {
+  outline: 2px solid red;
+}
+
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
