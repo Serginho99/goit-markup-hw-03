@@ -51,7 +51,6 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  height: 80px;
 }
 
 .main-nav {
@@ -91,8 +90,8 @@ body {
 
 .header-link {
   display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   color: var(--heading-color);
 }
 
@@ -131,11 +130,15 @@ body {
 .hero-title {
   font-size: 44px;
   line-height: 1.36;
+  max-width: 696px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-color);
-  margin-bottom: 40px;
+  margin: 30px auto;
+}
+.hero-title {
+  margin-top: 0;
 }
 
 .hero-btn {
@@ -267,13 +270,14 @@ body {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  display: block;
 }
 .address {
   font-style: normal;
 }
 
-.address-item {
-  outline: 2px solid red;
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-logo {
@@ -284,6 +288,9 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  padding-top: 60px;
+  margin-bottom: 20px;
+  display: flex;
 }
 
 .footer-logo-sudio {
@@ -292,6 +299,7 @@ body {
 
 .address-footer {
   color: var(--secondary-color);
+  margin-bottom: 20px;
 }
 
 .address-footer:hover,
@@ -301,6 +309,7 @@ body {
 
 .footer-address {
   color: #ffffff99;
+  margin-bottom: 9px;
 }
 
 .footer-address:hover,
