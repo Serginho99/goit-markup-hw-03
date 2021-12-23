@@ -374,6 +374,7 @@ body {
   width: 370px;
   height: 294px;
   margin-bottom: 20px;
+  max-width: 100%;
 }
 
 .examples-item {
@@ -383,6 +384,7 @@ body {
   width: 370px;
   height: 404px;
   border: 2px solid #eeeeee;
+  padding: 0;
 }
 
 .examples-item:nth-child(3n) {
