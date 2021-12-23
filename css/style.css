@@ -249,12 +249,20 @@ body {
 }
 
 .team-item {
-  margin-right: 30px;
   background-color: var(--secondary-color);
 }
 
-.img {
-  margin-bottom: 30px;
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-item-div {
+  border: 1px solid transparent;
+  border-radius: 0 0 4px 4px;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-right-color: rgba(0, 0, 0, 0.14);
+  border-left-color: rgba(0, 0, 0, 0.14);
+  border-top-color: #f5f4fa;
 }
 
 .about-team {
@@ -264,6 +272,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--heading-color);
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
