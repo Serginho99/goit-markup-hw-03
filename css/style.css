@@ -382,8 +382,7 @@ body {
   background-color: var(--secondary-color);
   width: 370px;
   height: 404px;
-  border-color: #eeeeee;
-  border-style: solid;
+  border: 2px solid #eeeeee;
 }
 
 .examples-item:nth-child(3n) {
