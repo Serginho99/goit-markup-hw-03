@@ -250,6 +250,7 @@ body {
 
 .team-item {
   margin-right: 30px;
+  background-color: var(--secondary-color);
 }
 
 .img {
@@ -270,11 +271,11 @@ body {
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
-  padding-bottom: 60px;
   display: block;
 }
 .address {
   font-style: normal;
+  padding-bottom: 60px;
 }
 
 .address-item:not(:last-child) {
@@ -352,6 +353,8 @@ body {
   margin-right: 8px;
 }
 
+/* Examples */
+
 .examples {
   padding-top: 34px;
   padding-bottom: 94px;
@@ -368,7 +371,7 @@ body {
 }
 
 .picture {
-  width: 380px;
+  width: 370px;
   height: 294px;
   margin-bottom: 20px;
 }
@@ -376,6 +379,10 @@ body {
 .examples-item {
   margin-right: 30px;
   margin-bottom: 20px;
+  background-color: var(--secondary-color);
+  width: 370px;
+  height: 404px;
+  outline: 1px solid #eeeeee;
 }
 
 .examples-item:nth-child(3n) {
