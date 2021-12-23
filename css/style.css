@@ -373,8 +373,6 @@ body {
 .picture {
   width: 370px;
   height: 294px;
-  margin-bottom: 20px;
-  max-width: 100%;
 }
 
 .examples-item {
@@ -383,8 +381,11 @@ body {
   background-color: var(--secondary-color);
   width: 370px;
   height: 404px;
+}
+
+.examples-item-div {
+  width: 370px;
   border: 2px solid #eeeeee;
-  padding: 0;
 }
 
 .examples-item:nth-child(3n) {
@@ -398,6 +399,8 @@ body {
 .about-title-list {
   margin-bottom: 4px;
   margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 20px;
 }
 
 .about-text-list {
@@ -406,4 +409,5 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
   margin-left: 24px;
+  margin-bottom: 20px;
 }
