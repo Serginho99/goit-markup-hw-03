@@ -384,7 +384,7 @@ body {
 
 .picture {
   width: 370px;
-  height: 294px;
+  /* height: 294px; */
 }
 
 .examples-item {
@@ -392,13 +392,17 @@ body {
   margin-bottom: 30px;
   background-color: var(--secondary-color);
   width: 370px;
-  height: 404px;
 }
 
 .examples-item-div {
   width: 370px;
   border: 2px solid #eeeeee;
+  padding-left: 24;
+  padding-right: 24px;
+  padding-bottom: 20px;
   line-height: 1.5;
+  padding-left: 24px;
+  padding-top: 20px;
 }
 
 .examples-item:nth-child(3n) {
@@ -409,18 +413,9 @@ body {
   margin-bottom: 0;
 }
 
-.about-title-list {
-  margin-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 20px;
-}
-
 .about-text-list {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  margin-left: 24px;
-  margin-bottom: 20px;
 }
