@@ -257,7 +257,7 @@ body {
 }
 
 .team-item-div {
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 0 0 4px 4px;
   border-bottom-color: rgba(0, 0, 0, 0.2);
   border-right-color: rgba(0, 0, 0, 0.14);
