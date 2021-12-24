@@ -184,7 +184,6 @@ body {
   text-transform: uppercase;
   color: var(--heading-color);
   margin-bottom: 10px;
-  line-height: 1.5;
 }
 
 .about-item {
@@ -200,7 +199,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  line-height: 1.5;
 }
 
 .about-text-team {
@@ -400,7 +398,7 @@ body {
   padding-left: 24;
   padding-right: 24px;
   padding-bottom: 20px;
-  line-height: 1.5;
+
   padding-left: 24px;
   padding-top: 20px;
 }
@@ -415,7 +413,11 @@ body {
 
 .about-text-list {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.6;
   letter-spacing: 0.03em;
   color: var(--main-color);
+}
+
+.about-title-list {
+  line-height: 1.71;
 }
