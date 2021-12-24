@@ -163,7 +163,6 @@ body {
 
 .about {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .visually-hidden {
@@ -259,12 +258,12 @@ body {
 }
 
 .team-item-div {
-  border: 2px solid transparent;
+  /* border: 2px solid transparent;
   border-radius: 0 0 4px 4px;
   border-bottom-color: rgba(0, 0, 0, 0.2);
   border-right-color: rgba(0, 0, 0, 0.14);
   border-left-color: rgba(0, 0, 0, 0.14);
-  border-top-color: #f5f4fa;
+  border-top-color: #f5f4fa; */
 }
 
 .about-team {
@@ -287,6 +286,8 @@ body {
 }
 .address {
   font-style: normal;
+  width: 231px;
+  height: 81px;
 }
 
 .address-item:not(:last-child) {
@@ -354,6 +355,31 @@ body {
   font-weight: 500;
 }
 
+.btn-first {
+  width: 73px;
+  height: 38px;
+}
+
+.btn-second {
+  width: 128px;
+  height: 38px;
+}
+
+.btn-third {
+  width: 145px;
+  height: 38px;
+}
+
+.btn-fourth {
+  width: 103px;
+  height: 38px;
+}
+
+.btn-fifth {
+  width: 130px;
+  height: 38px;
+}
+
 .main-button:hover,
 .main-button:focus {
   color: var(--secondary-color);
@@ -367,7 +393,7 @@ body {
 /* Examples */
 
 .examples {
-  padding-top: 34px;
+  /* padding-top: 34px; */
   padding-bottom: 94px;
   display: inline-flex;
 }
@@ -391,6 +417,7 @@ body {
   margin-bottom: 30px;
   background-color: var(--secondary-color);
   width: 370px;
+  height: 404px;
 }
 
 .examples-item-div {
