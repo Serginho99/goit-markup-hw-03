@@ -51,10 +51,6 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
-  padding: 0;
-}
-
-.header-nav {
 }
 
 .header-list {
