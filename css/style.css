@@ -76,6 +76,7 @@ body {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
+  width: 145px;
 }
 
 .header-item {
@@ -311,6 +312,8 @@ body {
   color: var(--accent-color);
   margin-bottom: 20px;
   display: flex;
+  width: 145px;
+  height: 31px;
 }
 
 .footer-logo-sudio {
