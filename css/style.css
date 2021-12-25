@@ -142,6 +142,7 @@ body {
   text-transform: uppercase;
   color: var(--secondary-color);
   margin: 30px auto;
+  height: 120px;
 }
 .hero-title {
   margin-top: 0;
@@ -205,6 +206,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  height: 75px;
+  width: 270px;
 }
 
 .about-text-team {
@@ -214,6 +217,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
   margin-bottom: 30px;
+  height: 19px;
 }
 
 /* Work */
@@ -276,6 +280,8 @@ body {
   color: var(--heading-color);
   margin-top: 30px;
   margin-bottom: 10px;
+  height: 19px;
+  width: 270px;
 }
 
 /* Footer */
@@ -313,7 +319,7 @@ body {
 
 .address-footer {
   color: var(--secondary-color);
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .address-footer:hover,
@@ -443,8 +449,12 @@ body {
   line-height: 1.6;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  height: 30px;
+  width: 322px;
 }
 
 .about-title-list {
   line-height: 1.71;
+  height: 36px;
+  width: 322px;
 }
